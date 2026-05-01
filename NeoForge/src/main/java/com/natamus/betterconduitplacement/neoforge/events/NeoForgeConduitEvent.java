@@ -3,9 +3,9 @@ package com.natamus.betterconduitplacement.neoforge.events;
 import com.natamus.betterconduitplacement.events.ConduitEvent;
 import com.natamus.collective.functions.WorldFunctions;
 import net.minecraft.world.level.Level;
-import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
-import net.neoforged.neoforge.event.level.BlockEvent;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.neoforge.event.level.block.BreakBlockEvent;
 
 public class NeoForgeConduitEvent {
 	@SubscribeEvent
@@ -21,7 +21,7 @@ public class NeoForgeConduitEvent {
 	}
 	
 	@SubscribeEvent
-	public static void onBlockBreak(BlockEvent.BreakEvent e) {
+	public static void onBlockBreak(BreakBlockEvent e) {
 		Level level = WorldFunctions.getWorldIfInstanceOfAndNotRemote(e.getLevel());
 		if (level == null) {
 			return;
