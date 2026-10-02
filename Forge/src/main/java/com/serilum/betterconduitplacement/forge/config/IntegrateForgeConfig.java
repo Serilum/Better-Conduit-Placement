@@ -1,7 +1,7 @@
-package com.natamus.betterconduitplacement.forge.config;
+package com.serilum.betterconduitplacement.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.betterconduitplacement.util.Reference;
+import com.serilum.betterconduitplacement.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

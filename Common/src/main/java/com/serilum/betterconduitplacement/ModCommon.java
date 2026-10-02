@@ -1,6 +1,6 @@
-package com.natamus.betterconduitplacement;
+package com.serilum.betterconduitplacement;
 
-import com.natamus.betterconduitplacement.config.ConfigHandler;
+import com.serilum.betterconduitplacement.config.ConfigHandler;
 
 public class ModCommon {
 

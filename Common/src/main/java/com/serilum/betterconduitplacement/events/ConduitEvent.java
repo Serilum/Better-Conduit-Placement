@@ -1,7 +1,7 @@
-package com.natamus.betterconduitplacement.events;
+package com.serilum.betterconduitplacement.events;
 
-import com.natamus.betterconduitplacement.config.ConfigHandler;
-import com.natamus.betterconduitplacement.util.Util;
+import com.serilum.betterconduitplacement.config.ConfigHandler;
+import com.serilum.betterconduitplacement.util.Util;
 import com.natamus.collective.functions.BlockFunctions;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

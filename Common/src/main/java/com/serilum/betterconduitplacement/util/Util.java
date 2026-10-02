@@ -1,4 +1,4 @@
-package com.natamus.betterconduitplacement.util;
+package com.serilum.betterconduitplacement.util;
 
 import com.natamus.collective.functions.BlockFunctions;
 import net.minecraft.core.BlockPos;

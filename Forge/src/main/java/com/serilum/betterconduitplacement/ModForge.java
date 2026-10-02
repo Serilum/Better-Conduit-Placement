@@ -1,8 +1,8 @@
-package com.natamus.betterconduitplacement;
+package com.serilum.betterconduitplacement;
 
-import com.natamus.betterconduitplacement.forge.config.IntegrateForgeConfig;
-import com.natamus.betterconduitplacement.forge.events.ForgeConduitEvent;
-import com.natamus.betterconduitplacement.util.Reference;
+import com.serilum.betterconduitplacement.forge.config.IntegrateForgeConfig;
+import com.serilum.betterconduitplacement.forge.events.ForgeConduitEvent;
+import com.serilum.betterconduitplacement.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeConduitEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeConduitEvent.class);
 	}
 
 	private static void setGlobalConstants() {

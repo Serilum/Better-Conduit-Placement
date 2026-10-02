@@ -1,7 +1,7 @@
-package com.natamus.betterconduitplacement;
+package com.serilum.betterconduitplacement;
 
-import com.natamus.betterconduitplacement.events.ConduitEvent;
-import com.natamus.betterconduitplacement.util.Reference;
+import com.serilum.betterconduitplacement.events.ConduitEvent;
+import com.serilum.betterconduitplacement.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;

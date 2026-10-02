@@ -1,6 +1,6 @@
-package com.natamus.betterconduitplacement.forge.events;
+package com.serilum.betterconduitplacement.forge.events;
 
-import com.natamus.betterconduitplacement.events.ConduitEvent;
+import com.serilum.betterconduitplacement.events.ConduitEvent;
 import com.natamus.collective.functions.WorldFunctions;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;

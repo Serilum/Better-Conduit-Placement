@@ -1,7 +1,7 @@
-package com.natamus.betterconduitplacement.config;
+package com.serilum.betterconduitplacement.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.betterconduitplacement.util.Reference;
+import com.serilum.betterconduitplacement.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
